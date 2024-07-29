@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Decodificador de texto</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap">
+    <link rel="shortcut icon" href="robot_910116.png" type="iconeroxo">
+</head>
+<body>
+    <form>
+        <label for="meuTextarea"></label><br>
+        <textarea id="meuTextarea" name="meuTextarea" class="botaotexto" rows="10" cols="30" placeholder="Digite seu texto"></textarea>
+    </form>
+    <div class="logol">
+        <img src="Letra-a.png" alt="alura">
+    </div>
+    <div id="fundobranco" class="fundobranco">
+        <img class="fundoparabranco" src="retangulo.png" alt="retangulobranco">
+    </div>
+    <div class="robozinho" id="robo">
+        <img src="robo sem fundo.png" alt="bom">
+    </div>
+    <h2 class="texto1" id="texto1">Nenhuma mensagem encontrada</h2>
+    <div id="texto2-container">
+        <p class="texto2">Digite um texto que você deseja criptografar ou descriptografar.</p>
+    </div>
+    <div class="alinharbotao">
+        <button type="button" onclick="criptografar()" class="botao1">Criptografar</button>
+        <button type="button" onclick="descriptografar()" class="botao2">Descriptografar</button>  
+    </div>
+    <div class="alinhador-de-alerta">
+        <p><img src="notificação.png" alt="alerta"> Apenas letras minusculas e sem pontuação.</p>
+    </div>
+    <footer class="meunome">Desenvolvido Por João victor 
+       <div class="links">
+        <a href="https://www.linkedin.com/notifications/?filter=all">Acesse meu linkedin!</a>
+       </div>
+    </footer>
+    <div id="resultado-cripto"></div>
+    <script src="config.js"></script>
+</body>
+</html>

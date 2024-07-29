@@ -1,0 +1,662 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+    color: #0A3871;
+    background-color: #F3F5FC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+  }
+  
+  footer.meunome {
+    background-color: #081624;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    padding: 20px;
+    margin-top: 1000px;
+    width: 100%;
+  }
+  
+  footer .links {
+    margin-top: 10px;
+  }
+  
+  footer .links a {
+    color: #5187a8;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  footer .links a:hover {
+    color: #ff043a;
+    text-decoration: underline;
+  }
+  
+h2{
+    font-size: 5;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Inter' , sans-serif;
+    position: absolute;
+    color: #343A40;
+
+    width: 336px;
+    height: 304px;
+    gap: 0px;
+    opacity: 0px;
+ 
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    position: absolute;
+    top: 450px;
+    right:80px;
+}
+.texto2{
+    font-size: 5e;
+    margin: 0;
+    padding: 0;
+    margin-left: 28%;
+    text-align: center;
+    font-family: 'Inter' , sans-serif;
+    position: relative;
+
+    width: 336px;
+    height: 304px;
+    gap: 0px;
+    opacity: 0px;
+ 
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    position: absolute;
+    top: 510px;
+}
+
+.logol{
+        position: absolute;
+        left: 40px;
+        top: 40px;
+}
+
+img{
+max-width: 100%;
+max-height: 100%;
+}
+
+.fundobranco {
+    position: relative; 
+    width: 400px;
+    margin-top: 40px;       
+    margin-left: auto;
+    margin-right: 20px;
+    padding: 20px;
+    border-radius: 32px;
+    
+}
+
+
+
+.robozinho {
+    width: 336px;
+    height: 304px;
+    top: 283px;
+    gap: 0px;
+    opacity: 0px;
+  
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    position: absolute;
+    top: 250px;
+    right: 100px; 
+  }
+  
+
+#mostrarconteudo{
+    text-align: center;
+    font-size: 25px;
+    color: var(--cortitulo);
+    
+}
+
+#output span{
+    font-size: 16px;
+    text-align: center;
+}
+
+
+.botaotexto{
+    position: absolute;
+    margin-top: 168px;
+    left: 240px;
+    width: 680px;
+    height: auto; 
+    color: #0057b3; 
+    background-color: rgba(0, 87, 179, 0); 
+    border: none; 
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    padding: 10px; 
+    word-wrap: break-word; 
+}
+
+
+.botaotexto::placeholder {
+    color: #0057b3;
+}
+
+
+.centralizador-texto{
+    background-color:blue ;
+}
+
+.alinharbotoes {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    position: relative; 
+}
+
+
+.botao1,
+.botao2 {
+    width: 120px; 
+    height: 67px; 
+    margin: 0 12px; 
+    opacity: 1; 
+    color: white;
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 16px;
+    transition: background-color 0.3s; 
+}
+
+.botao1 {
+    background-color: #072B61; 
+    color: white;
+    position: absolute;
+    width: 328px;
+    height: 67px;
+    top: 840px;
+    left: 240px;
+    gap: 24px;
+    border-radius: 30px;
+
+}
+
+.botao2 {
+    background-color:#D8DFE8;
+    color: #072B61;
+     border:2px solid #072B61;
+    position: absolute;
+    width: 328px;
+    height: 67px;
+    top: 840px;
+    left: 600px;
+    gap: 24px;
+    border-radius: 30px;
+    
+}
+
+.botaocopy{
+    background-color:#D8DFE8;
+    color: #072B61;
+     border:2px solid #072B61;
+    position: absolute;
+    width: 328px;
+    height: 67px;
+    top: 900px;
+    left: 380px;
+    gap: 24px;
+    
+}
+
+
+.botao1:hover {
+    background-color: #0056b3; 
+}
+
+.botao2:hover {
+    background-color: #081624; 
+}
+
+.alinhador-de-alerta{
+    position: absolute;
+    align-items: center;
+    top: 790px;
+    left: 280px;
+    color:#0056b3;
+    
+
+}
+
+
+
+.fundobranco {
+    position: absolute;
+    width: 400px;
+    height: 944px;
+    top: 40px;
+    left: 1050px;
+    border-radius: 32px 0px 0px 0px;
+    opacity: 0%; 
+}
+
+
+#input-texto {
+    width: 400px; 
+    height: 80%; 
+    padding: 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 32px 32px 32px 32px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+    position: absolute;
+    top: 240px; 
+    left: 1000px;
+}
+
+
+.btn-copiar {
+    background-color: #2606a4; 
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    position: absolute;
+    height: 40px;
+    width: 300px;
+    top: calc(70% + 150px); 
+    left: calc(1000px + 50px); 
+    border-radius: 5px 5px 5px 5px;
+}
+
+@media (max-width: 768px) {
+    body{
+        max-width: 100%;
+    }
+    .fundobranco {
+            position: relative; 
+            width: 688px;
+            display: flex;
+            align-items: center;
+            margin-top: 60%;       
+            margin-right: 20px;
+            padding: 20px;
+            border-radius: 25px;
+        }
+        
+        .fundobranco img {
+            transform: rotate(180deg); 
+            width: 1000px; 
+            height: 180px; 
+            position: relative;
+            border-radius: 17px;
+        }
+        
+        .botao1 {
+            background-color: #072B61;
+            color: white;
+            position: absolute;
+            width: 328px;
+            height: 67px;
+            top: 900px;
+            left: 40px;
+            gap: 24px;
+            border-radius: 30px;
+        
+        }
+        .botao2 {
+            background-color:#D8DFE8;
+            color: #072B61;
+             border:2px solid #072B61;
+            position: absolute;
+            width: 328px;
+            height: 67px;
+            top: 900px;
+            left: 380px;
+            gap: 24px;
+            border-radius: 30px;
+            
+        }
+        
+    
+        .robozinho{
+            display: none;
+        }
+        .alinhador-de-alerta{
+            position: absolute;
+            align-items: center;
+            top: 836px;
+            left: 40px;
+            color:#0056b3;
+            
+        }
+        
+        h2{
+            font-size: 24px;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            font-family: 'Inter' , sans-serif;
+            position: absolute;
+            color: #343A40;
+        
+            width: 336px;
+            height: 304px;
+            gap: 0px;
+            opacity: 0px;
+         
+            display: flex;
+            justify-content: right;
+            align-items: center;
+            position: absolute;
+            top: 900px;
+            right:220px;
+        }
+        .texto2{
+            font-size: 5e;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            font-family: 'Inter' , sans-serif;
+            position: absolute;
+        
+            width: 336px;
+            height: 304px;
+            gap: 0px;
+            opacity: 0px;
+         
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        position: absolute;
+        top: 960px;
+        right:220px;
+        
+        
+        }
+        
+        footer.meunome {
+            background-color: #081624;
+            color: white;
+            font-family: 'Inter', sans-serif; 
+            text-align: center;
+            padding: 20px; 
+            margin-top: 10px; 
+            width: 100%; 
+          }
+          
+          footer .links {
+            margin-top: 10px;
+          }
+          
+          footer .links a {
+            color: #5187a8; 
+            text-decoration: none; 
+            font-weight: bold; 
+            transition: color 0.3s ease; 
+          }
+          
+          footer .links a:hover {
+            color: #ff043a;
+            text-decoration: underline;
+          }
+          
+          .botaotexto {
+            position: relative;
+            margin-top: 168px;
+            left: 0%;
+            margin-right: 100%;
+            width: 680px;
+            height: 288px;
+            color: #0057b3;
+            background-color: rgba(0, 87, 179, 0);
+            border: none;
+            font-family: 'Inter', sans-serif;
+            font-size: 32px;
+            padding: 10px;
+            word-wrap: break-word;
+          }
+          
+          #input-texto {
+            width: 700px;
+            height: 40%;
+            padding: 20px;
+            box-sizing: border-box;
+            border: 2px solid #ccc;
+            border-radius: 32px;
+            background-color: #f8f8f8;
+            font-size: 16px;
+            resize: none;
+            position: absolute;
+            top: 1000px;
+            left: 30px;
+            font-family: 'Inter', sans-serif;
+            color: #0056b3;
+          }
+          
+          .btn-copiar {
+            background-color: #2606a4;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 4px;
+            position: absolute;
+            height: 40px;
+            width: 300px;
+            top: 1180px;
+            left: 220px;
+            border-radius: 5px;
+          }
+          
+          @media (max-width: 480px) {
+            body {
+              max-width: 100%;
+            }
+          
+            .fundobranco {
+              position: relative;
+              width: 100%;
+              display: flex;
+              align-items: center;
+              margin-top: 500px;
+              margin-right: 20px;
+              left: 1%;
+              margin-right: 90%;
+              padding: 20px;
+              border-radius: 25px;
+            }
+          
+            .fundobranco img {
+              transform: rotate(180deg);
+              width: 343px;
+              height: 400px;
+              margin-right: 90px;
+              position: relative;
+              border-radius: 17px;
+              margin-right: 11%;
+            }
+          
+            .botao1 {
+              background-color: #072B61;
+              color: white;
+              position: absolute;
+              width: 328px;
+              height: 67px;
+              top: 850px;
+              left: 10px;
+              gap: 24px;
+              border-radius: 30px;
+              align-items: center;
+            }
+          
+            .botao2 {
+              background-color: #D8DFE8;
+              color: #072B61;
+              border: 2px solid #072B61;
+              position: absolute;
+              width: 328px;
+              height: 67px;
+              top: 950px;
+              left: 10px;
+              gap: 24px;
+              border-radius: 30px;
+              align-items: center;
+            }
+          
+            .boneca {
+              display: none;
+            }
+          
+            .alinhador-de-alerta {
+              position: absolute;
+              align-items: center;
+              top: 750px;
+              left: 40px;
+              color: #0056b3;
+            }
+          
+            h2 {
+              font-size: 24px;
+              margin: 0;
+              padding: 0;
+              text-align: center;
+              font-family: 'Inter', sans-serif;
+              position: absolute;
+              color: #343A40;
+              width: 336px;
+              height: 304px;
+              gap: 0px;
+              opacity: 0px;
+              display: flex;
+              justify-content: right;
+              align-items: center;
+              top: 1100px;
+              left: 20px;
+            }
+          
+            .texto2 {
+              font-size: 1;
+              margin: 0;
+              padding: 0;
+              text-align: center;
+              font-family: 'Inter', sans-serif;
+              position: absolute;
+              width: 336px;
+              height: 304px;
+              gap: 0px;
+              opacity: 0px;
+              display: flex;
+              justify-content: right;
+              align-items: center;
+              top: 1170px;
+              left: 20px;
+            }
+          
+            footer.meunome {
+              background-color: #081624;
+              color: white;
+              font-family: 'Inter', sans-serif;
+              text-align: center;
+              padding: 20px;
+              margin-top: 1px;
+              width: 100%;
+            }
+          
+            footer .links {
+              margin-top: 10px;
+            }
+          
+            footer .links a {
+              color: #5187a8;
+              text-decoration: none;
+              font-weight: bold;
+              transition: color 0.3s ease;
+            }
+          
+            .botaotexto {
+              position: relative;
+              margin-top: 168px;
+              left: 0%;
+              margin-right: 100%;
+              width: 343px;
+              height: 288px;
+              color: #0057b3;
+              background-color: rgba(0, 87, 179, 0);
+              border: none;
+              font-family: 'Inter', sans-serif;
+              font-size: 32px;
+              padding: 10px;
+              word-wrap: break-word;
+            }
+          
+            .logol {
+              position: relative;
+              left: 0px;
+              margin-right: 100%;
+              top: 40px;
+            }
+          
+            #input-texto {
+              width: 350px;
+              height: 20%;
+              padding: 20px;
+              box-sizing: border-box;
+              border: 2px solid #ccc;
+              border-radius: 32px;
+              background-color: #f8f8f8;
+              font-size: 16px;
+              resize: none;
+              position: absolute;
+              top: 1030px;
+              left: 10px;
+              font-family: 'Inter', sans-serif;
+              color: #0056b3;
+            }
+          
+            .btn-copiar {
+              background-color: #2606a4;
+              border: none;
+              color: white;
+              padding: 10px 20px;
+              text-align: center;
+              text-decoration: none;
+              display: inline-block;
+              font-size: 16px;
+              cursor: pointer;
+              border-radius: 4px;
+              position: absolute;
+              height: 40px;
+              width: 150px;
+              top: 1180px;
+              left: 110px;
+              border-radius: 5px;
+            }
+          }
+        }
