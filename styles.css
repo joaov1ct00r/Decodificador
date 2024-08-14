@@ -267,8 +267,8 @@ max-height: 100%;
     font-size: 16px;
     resize: none;
     position: absolute;
-    top: 240px; 
-    left: 1000px;
+    top: 100px; 
+    left: 1300px;
 }
 
 
@@ -286,10 +286,11 @@ max-height: 100%;
     position: absolute;
     height: 40px;
     width: 300px;
-    top: calc(70% + 150px); 
-    left: calc(1000px + 50px); 
+    top: calc(70% + 100px); 
+    left: calc(1000px + 350px); 
     border-radius: 5px 5px 5px 5px;
 }
+
 
 @media (max-width: 768px) {
     body{
